@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1e4a7a"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Lingkaran latar belakang transparan (opsional) -->
+  <circle cx="100" cy="100" r="90" fill="rgba(59,130,246,0.05)" stroke="rgba(59,130,246,0.2)" stroke-width="1.5"/>
+  
+  <!-- Bintang besar di belakang -->
+  <polygon points="100,15 108,45 140,45 115,62 125,92 100,75 75,92 85,62 60,45 92,45" 
+           fill="url(#starGrad)" opacity="0.15"/>
+  
+  <!-- Bintang-bintang kecil (4 ujung) -->
+  <!-- Bintang 1 - kanan atas -->
+  <path d="M155,40 L158,48 L166,48 L160,54 L162,62 L155,57 L148,62 L150,54 L144,48 L152,48 Z" 
+        fill="#3b82f6" opacity="0.6"/>
+  
+  <!-- Bintang 2 - kiri bawah -->
+  <path d="M45,150 L48,158 L56,158 L50,164 L52,172 L45,167 L38,172 L40,164 L34,158 L42,158 Z" 
+        fill="#60a5fa" opacity="0.5"/>
+  
+  <!-- Bintang 3 - kanan bawah -->
+  <path d="M160,155 L162,161 L168,161 L163,166 L165,172 L160,168 L155,172 L157,166 L152,161 L158,161 Z" 
+        fill="#3b82f6" opacity="0.4"/>
+  
+  <!-- Bintang 4 - kiri atas kecil -->
+  <path d="M35,55 L37,60 L42,60 L38,63 L40,68 L35,65 L30,68 L32,63 L28,60 L33,60 Z" 
+        fill="#93c5fd" opacity="0.7"/>
+  
+  <!-- Bintang 5 - sedang -->
+  <path d="M175,95 L177,100 L182,100 L178,104 L180,109 L175,106 L170,109 L172,104 L168,100 L173,100 Z" 
+        fill="#3b82f6" opacity="0.35"/>
+  
+  <!-- Bintang 6 -->
+  <path d="M25,120 L27,125 L32,125 L28,129 L30,134 L25,131 L20,134 L22,129 L18,125 L23,125 Z" 
+        fill="#60a5fa" opacity="0.55"/>
+  
+  <!-- Huruf H utama -->
+  <text x="100" y="118" font-family="'Cormorant Garamond', 'Times New Roman', serif" 
+        font-size="85" font-weight="700" text-anchor="middle" 
+        fill="url(#blueGrad)" letter-spacing="2">
+    H
+  </text>
+  
+  <!-- Hiasan garis bawah -->
+  <line x1="70" y1="140" x2="130" y2="140" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Titik kecil dekorasi -->
+  <circle cx="68" cy="140" r="2.5" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="132" cy="140" r="2.5" fill="#3b82f6" opacity="0.8"/>
+</svg>
